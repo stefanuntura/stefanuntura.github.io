@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Traffic racer</title>
+    <link href="style.css" rel="stylesheet" /> </head>
+
+<body>
+
+    <!-- Controls container -->
+    <div id="help">
+        <p>Controls: Right, Left, Up & Down arrow keys.</p>
+    </div>
+
+    <!-- Fuel bar -->
+    <div class="progress-bar">
+      <div class="progress-bar-value">
+        Fuel <span id="fuel"></span>
+      </div>
+      <div class="progress-bar-fill">
+      </div>
+    </div>
+
+    <!-- Score container -->
+    <div id="score_div">
+        Score: <span id="score">0</span>
+        High Score: <span id="high_score">0</span>
+    </div>
+    <div id="container">
+
+        <!-- Center line -->
+        <div id="line_1" class="line"></div>
+        <div id="line_2" class="line"></div>
+        <div id="line_3" class="line"></div>
+
+        <!-- Coins -->
+        <div id="coin_1" class="coin"></div>
+        <div id="coin_2" class="coin"></div>
+        <div id="coin_3" class="coin"></div>
+
+        <!-- Speed item -->
+        <div id="speed_item" class="speed_item_container">
+          <i class="fas fa-tachometer-alt"></i>
+        </div>
+
+        <!-- Fuel item -->
+        <div id="fuel_item" class="fuel_can_container">
+          <i class="fas fa-gas-pump"></i>
+        </div>
+
+        <!-- Player car -->
+        <div id="car" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+
+        <!-- Car obstacles -->
+        <div id="car_1" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_2" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_3" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="restart_div">
+            <button id="restart">
+                Restart<br>
+                <small class="small_text">(press Enter)</small>
+            </button>
+        </div>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f80226ec88.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
